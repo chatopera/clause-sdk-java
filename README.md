@@ -1,4 +1,4 @@
-# java-clause
+# clause-sdk-java
 
 开源语义理解服务[Clause](https://github.com/chatopera/clause)的 Java 客户端示例程序。
 
@@ -10,7 +10,7 @@
 该示例程序实现的[对话场景介绍](https://github.com/chatopera/clause/wiki/%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F)，熟悉对话场景有助于更好的掌握程序。
 
 ```
-git clone https://github.com/chatopera/java-clause.git
+git clone https://github.com/chatopera/clause-sdk-java.git
 cd java-clause
 edit src/test/java/com/chatopera/clause/ClauseClientTest.java  # 使用文本编辑器修改 CLAUSE_IP 和 CLAUSE_PORT 的值
 mvn -Dtest=ClauseClientTest#testApp test
@@ -18,7 +18,7 @@ mvn -Dtest=ClauseClientTest#testApp test
 
 ## API 接口详细介绍
 
-参考[链接](https://github.com/chatopera/java-clause/wiki)。
+参考[链接](https://github.com/chatopera/clause-sdk-java/wiki)。
 
 ## 开源许可协议
 
